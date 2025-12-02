@@ -1,6 +1,6 @@
 import { memo, useCallback, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Modal } from '../src/components/ui/Modal'
+import { Modal } from '../../components/ui/Modal'
 import FavoriteButton from './FavoriteButton'
 
 function MovieCard({ image, rating, trailerYoutubeId }) {
@@ -23,10 +23,10 @@ function MovieCard({ image, rating, trailerYoutubeId }) {
 						height="210"
 						src={`https://www.youtube.com/embed/${trailerYoutubeId}?amp;controls=0`}
 						title="YouTube video player"
-						frameBorder="0"
+						frameborder="0"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-						referrerPolicy="strict-origin-when-cross-origin"
-						allowFullScreen
+						referrerpolicy="strict-origin-when-cross-origin"
+						allowfullscreen
 					/>
 				</Modal>
 			)}

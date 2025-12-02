@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
-import { useDebounce } from '../src/hooks/useDebounce'
-import { useTheme } from '../src/hooks/useTheme'
+import { useDebounce } from '../../hooks/useDebounce'
+import { useTheme } from '../../hooks/useTheme'
 import MovieCard from './MovieCard'
 import { MOVIES } from './movies.data'
 

@@ -8,7 +8,7 @@ const LazyMovieComments = lazy(() =>
 	}))
 )
 
-export function MovieDetails() {
+export function ils() {
 	const { id } = useParams()
 
 	const movie = useMemo(() => {
